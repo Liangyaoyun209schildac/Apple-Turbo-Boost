@@ -17,7 +17,7 @@ jobs:
 
 
     - name: Install dependencies
-      run: brew update&&brew install clang-build-analyzer xcode &&make
+      run: brew update&&brew install clang-build-analyzer xcodes &&make
 
     - name: Run check
       run: make check
