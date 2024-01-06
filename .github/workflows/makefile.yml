@@ -17,7 +17,7 @@ jobs:
 
 
     - name: Install dependencies
-      run: make
+      run: brew install clang -y&&make
 
     - name: Run check
       run: make check
